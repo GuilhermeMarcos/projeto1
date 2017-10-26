@@ -38,7 +38,7 @@ public class UC01CadastrarEmpresa {
 	 */
 	@Test
 	public void CT01UC01FBCadastra_com_sucesso() {
-				assertEquals(1, empresaDAO.adiciona(empresa));
+		assertEquals(1, empresaDAO.adiciona(empresa));
 	}
 	@Test
 	public void CT02UC01FBCadastra_cnpj_invalido() {
